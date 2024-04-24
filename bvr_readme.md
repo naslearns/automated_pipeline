@@ -64,6 +64,7 @@ https://drive.google.com/drive/folders/18zqQiCJVgF7uzXgfbIJ-04zgz1ItNfF5
 copy winequality.csv to data_given folder 
 ```
 ```
+git init
 dvc init
 dvc add data_given/winequality.csv
 git add .
