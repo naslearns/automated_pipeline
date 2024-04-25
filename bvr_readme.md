@@ -211,6 +211,7 @@ if __name__ == "__main__" :
 dvc repro
 ```
 ```Create split_data.py file```
+```
 import os
 import argparse 
 import pandas as pd 
@@ -242,6 +243,7 @@ if __name__ == "__main__" :
 ```
 
 ```Update dvc.yaml```
+
 ```
 stages :
   load_data :
